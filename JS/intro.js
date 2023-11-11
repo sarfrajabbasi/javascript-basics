@@ -2,21 +2,42 @@
 
 // this is comments goes here :) :|
 
-document.write('hey brain are workingor not?');
+// document.write('hey brain are workingor not?');
 
-//  variables
+
+
+
+//  Variables:--
 
 var x = "hello anonymus men \n";
 var x_hello = "hello Humans \n 'asda'";
 var js = false;
 var n = null
-
-document.write( x);
-document.write( x_hello);
-document.write(js)
-document.write(n)
-
 var tuna = -20.58659659;
+var name = "Sarfraj"
+var age = 23;
 
-document.write(tuna);
+// Prints :--
+// document.write(x);
+// document.write(x_hello);
+// document.write(js);
+// document.write(n);
+// document.write(tuna);
+// document.write("\n");
+// document.write(name + " is my name " + " and my age is" + age);
+
+// function
+ 
+function hello(){
+// alert("Hello Mr." + name)
+var bg  = document.getElementById('hello');
+if(bg){
+    console.log(bg)
+    bg.classList.toggle('card');
+    bg.style.display = "block"
+    bg.style.visibility = "visible"
+}
+
+}
+
 
