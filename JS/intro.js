@@ -40,4 +40,11 @@ if(bg){
 
 }
 
+function apples(one,two){
+    document.write(one + " is better than " + two + "</br>")
+}
+
+apples("sarfraj","sarfraz");
+apples("apple","orange");
+apples("Qhawa","Tea");
 
