@@ -70,4 +70,24 @@ if((firstName === "buckey") || (lastName ==="roberts")){
 
 // Switch statement
 
+var superCar = "auto";
+
+switch(superCar){
+    case "mustang":
+        console.log("%cYess:)","color:green");
+        break;
+        
+    case "lamborgini":
+        console.log("%cYess:)","color:red");
+        break;
+        
+    case "suprraaa":
+        console.log("%cohh yeahh","color:blue");
+        break;
+    case "auto":
+        console.log("%cno:(","color:HotPink");
+        break;
+    default:
+        console.log("%cnot-car","color:red;font-size:24px;");    
+}
 
