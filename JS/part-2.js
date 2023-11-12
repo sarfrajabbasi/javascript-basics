@@ -68,5 +68,6 @@ if((firstName === "buckey") || (lastName ==="roberts")){
     console.log("now i'm bore");
 }
 
-// Nested and Fridays
+// Switch statement
+
 
