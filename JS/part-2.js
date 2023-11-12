@@ -33,11 +33,33 @@ bear /=1;
 
 // if statement
 
-var apples =53;
+var apples =33;
 var hotdogs = 53;
 
-if(apples === hotdogs){
+if(apples <= hotdogs){
 console.log("Yayyy it's worked!");
 }
+var test = 43;
+var result;
 
 // if/else statement
+if(test === result){
+    console.log('I Love HotPockets');
+}else{
+    console.log("I Love Strawberries")
+}
+// Nested and Fridays
+
+var firstName = "buckey";
+var lastName = "roberts";
+
+if(firstName === "buckey"){
+    if(lastName === "roberts"){
+        console.log(`Welcome ${firstName} ${lastName} !!!`);
+    }else{
+        console.log(`hello ${firstName} someone!!!`);
+    }
+}
+
+// Nested and Fridays
+
