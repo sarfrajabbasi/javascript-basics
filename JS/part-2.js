@@ -60,6 +60,13 @@ if(firstName === "buckey"){
         console.log(`hello ${firstName} someone!!!`);
     }
 }
+if((firstName === "buckey") && (lastName ==="roberts")){
+    console.log('hey good job buddy erhe filda nue ke');
+}
+
+if((firstName === "buckey") || (lastName ==="roberts")){
+    console.log("now i'm bore");
+}
 
 // Nested and Fridays
 
