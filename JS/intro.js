@@ -1,4 +1,5 @@
-// Begin the world of Javscript
+
+// Begin the world of Javscript Introduction
 
 // this is comments goes here :) :|
 
@@ -34,8 +35,7 @@ var bg  = document.getElementById('hello');
 if(bg){
     console.log(bg)
     bg.classList.toggle('card');
-    bg.style.display = "block"
-    bg.style.visibility = "visible"
+
 }
 
 }
@@ -44,7 +44,45 @@ function apples(one,two){
     document.write(one + " is better than " + two + "</br>")
 }
 
-apples("sarfraj","sarfraz");
-apples("apple","orange");
-apples("Qhawa","Tea");
+// apples("sarfraj","sarfraz");
+// apples("apple","orange");
+// apples("Qhawa","Tea");
 
+function tooeasy(){
+return "GameTime"
+}
+
+function addNumbers(a,b){
+    var c = a + b;
+    return c;
+}
+
+document.write("<br>");
+document.write("<br>",tooeasy());
+document.write("<br>");
+document.write("<br>",addNumbers(10,18));
+
+// function call form another function
+
+var count = 7
+ function doFirst(){
+    count++
+    console.log("I am first bo!");
+    doSecond();
+    if(count === 10){
+        console.log("end3");
+        return "end"
+    }
+ }
+
+ function doSecond(){
+    console.log("I am ohh no second");
+    if(count === 10){
+        console.log("end4");
+        return "end"
+    }
+    doFirst();
+    
+ }
+
+// doFirst()
