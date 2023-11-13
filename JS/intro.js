@@ -33,7 +33,7 @@ function hello(){
 // alert("Hello Mr." + name)
 var bg  = document.getElementById('hello');
 if(bg){
-    console.log(bg)
+    // console.log(bg)
     bg.classList.toggle('card');
 
 }
