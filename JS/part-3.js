@@ -28,4 +28,23 @@ const tylor = new Person('tylor',29);
 console.log(Emma.name);
 console.log(tylor.age);
 
-// object initializer
+// Object Initializer
+
+const sarfraj = {
+    name:"sarfraj abbasi",
+    age:24,
+    Intro:()=>{
+        console.log("Hello, My name is sarfraj abbasi i am 24 year old and like to do programming");
+    }
+};
+
+const conner = {
+    name:"conner ",
+    age:21,
+    Intro:()=>{
+        console.log("Hello, My name is conner i am 21 year old and like to do programming");
+    }
+};
+
+sarfraj.Intro();
+
