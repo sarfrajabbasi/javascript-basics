@@ -96,23 +96,24 @@ switch (superCar) {
 
 // For
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 5; i++) {
   console.log("theNewBoston is suck");
 }
 
 // While
 var x = 1;
 
-while (x < 10) {
+while (x < 5) {
   console.log(` ${x} again theNewBoston is more suck`);
   x++;
 }
 
 // Do-While
 
-var x2 = 5;
+var x2 = 1;
 
 do {
-  console.log(x + "holohlho");
-  x++;
-} while (x <= 10);
+  console.log(x2 + " hooloo-hooloo");
+  x2++;
+} while (x2 <= 5);
+
