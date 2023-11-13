@@ -13,3 +13,9 @@ function changes(){
     let currVal = val.value;
     img.src= `https://source.unsplash.com/random/300x300/?${currVal}`
 }
+
+// object
+
+const color = {
+    
+}
