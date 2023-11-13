@@ -14,8 +14,18 @@ function changes(){
     img.src= `https://source.unsplash.com/random/300x300/?${currVal}`
 }
 
-// object
 
-const color = {
-    
+// Object and creating objects(instance of objects)
+
+function Person(name,age){
+    this.name =name;
+    this.age =age;
+
 }
+
+const Emma = new Person('emma',19);
+const tylor = new Person('tylor',29);
+console.log(Emma.name);
+console.log(tylor.age);
+
+// object initializer
